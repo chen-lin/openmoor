@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to OpenMOOR
+
+OpenMOOR is an open source simulation program for static and dynamic analysis for mooring systems in offshore wind turbines and wave energy devices. 
 
 You can use the [editor on GitHub](https://github.com/CHEN-Lin/OpenMoor/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
