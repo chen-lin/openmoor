@@ -8,7 +8,14 @@ Compiled dynamic linking library files have been provided for use in Matlab for 
 - Windows
 
 ## How to compile
-We use CMake to setup and a MakeLists.txt is provided in the main folder along with the source files.
+We use [CMake](https://cmake.org) to setup and a MakeLists.txt is provided in the main folder along with the source files.
+
+## Dependencies
+The following open source libraries are used by OpenMOOR:
+- [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) library for matrix manipulation
+- [rapidxml](http://rapidxml.sourceforge.net) for handling input file
+- [boost/odeint](http://headmyshoulder.github.io/odeint-v2/) for integration
+
 
 You can use the [editor on GitHub](https://github.com/CHEN-Lin/OpenMoor/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
