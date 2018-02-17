@@ -18,6 +18,7 @@ The following open source libraries are used by OpenMOOR:
 - [rapidxml](http://rapidxml.sourceforge.net) for handling input file
 - [boost/odeint](http://headmyshoulder.github.io/odeint-v2/) for integration
 
+## View results in [Paraview](https://www.paraview.org)
+### Prepare VTK files using Python
 
-
-## Application
+## Examples
