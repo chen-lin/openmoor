@@ -22,4 +22,5 @@ The following open source libraries are used by OpenMOOR:
 ### Prepare VTK files using Python
 
 ## Examples
-[Cable model](https://github.com/chen-lin/OpenMOOR/blob/master/example/validation/Case3-5.gif?raw=true)
+### Validation
+![Case1](https://github.com/chen-lin/OpenMOOR/blob/master/example/validation/Case3-5.gif?raw=true)
