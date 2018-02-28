@@ -23,5 +23,4 @@ The following open source libraries are used by OpenMOOR:
 
 ## Examples
 ### Validation
-![Case1](https://github.com/chen-lin/OpenMOOR/blob/master/example/validation/Case3-5.gif?raw=true)
 <img src="https://github.com/chen-lin/OpenMOOR/blob/master/example/validation/Case3-5.gif?raw=true" width="600">
