@@ -25,6 +25,6 @@ The following open source libraries are used by OpenMOOR:
 ### Validation
 The scaled model cable described in [paper](http://www.mdpi.com/2077-1312/4/1/5) is simulated.
 - Case 1: upper end forced motion with period 3.5 s
-<img src="https://github.com/chen-lin/OpenMOOR/blob/master/example/validation/Case3-5.gif" width="600">
+<img src="https://github.com/chen-lin/OpenMOOR/blob/master/example/validation/Case3-5.gif" width="500">
 - Case 2: upper end forced motion with period 1.25 s
-<img src="https://github.com/chen-lin/OpenMOOR/blob/master/example/validation/Case1-25.gif" width="600">
+<img src="https://github.com/chen-lin/OpenMOOR/blob/master/example/validation/Case1-25.gif" width="500">
