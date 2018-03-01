@@ -28,4 +28,4 @@ The scaled model cable described in [paper](http://www.mdpi.com/2077-1312/4/1/5)
 ![case1](https://github.com/chen-lin/OpenMOOR/blob/master/example/validation/Case3-5.gif?raw=true)
 
 - Case 2: upper end forced motion with period 1.25 s
-<img src="https://github.com/chen-lin/OpenMOOR/blob/master/example/validation/Case1-25.gif" width="500">
+![case2](https://github.com/chen-lin/OpenMOOR/blob/master/example/validation/Case1-25.gif?raw=true)
