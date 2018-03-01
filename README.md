@@ -3,7 +3,7 @@
 OpenMOOR is an open source cross-platform simulation program for static and dynamic analysis for mooring systems in offshore wind turbines and wave energy devices. 
 
 ## How to use
-Compiled dynamic linking library files have been provided for use in Matlab for coupled analyis. Example file is also provided for use demonstration.
+OpenMOOR can be used as a standalone program or more frequently as dynamic linking library for coupled analysis. 
 - MacOS
 - Windows
 
@@ -22,3 +22,5 @@ The following open source libraries are used by OpenMOOR:
 ### Prepare VTK files using Python
 
 ## Examples
+### Validation
+<img src="https://github.com/chen-lin/OpenMOOR/blob/master/example/validation/Case3-5.gif?raw=true" width="600">
