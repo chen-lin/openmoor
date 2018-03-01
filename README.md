@@ -32,4 +32,6 @@ The following open source libraries are used by OpenMOOR:
 ## View results in [Paraview](https://www.paraview.org)
 ### Prepare VTK files using Python
 
-
+## Authors and Contributors
+- Lin Chen
+- Biswajit Basu
