@@ -34,5 +34,5 @@ The following open source libraries are used by OpenMOOR:
 ### Prepare VTK files using Python
 
 ## Authors and Contributors
-- Lin Chen
-- Biswajit Basu
+- [Lin Chen](http://chenllab.com)
+- [Biswajit Basu](https://www.tcd.ie/research/profiles/?profile=basub)
