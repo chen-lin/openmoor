@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<case id="CaseModel" date="2018/02/22">
+	<constants note="still water level is at z=0 m">
+		<gravitationalacceleration unit="N/kg">9.80655</gravitationalacceleration>
+		<waterdensity unit="kg/m^3">1000</waterdensity>
+		<waterdepth unit="m" note="positive">3</waterdepth>
+	</constants>
+	<platform note = "rigid body, motion & force defined w.r.t a reference point">
+		<position x="0" y="0" z="0.3" roll="0" pitch="0" yaw="0"/>
+	</platform>
+	<connections number="2">
+		<connection id="0" type="anchor" x="-32.554" y="0" z="-3.0"/>
+		<connection id="1" type="fairlead" x="0.0" y="0" z="0.1"/>
+	</connections>
+	<cables number="1">
+		<cable id="0"> 
+			<initialstatefile note="use catenary if not provided"></initialstatefile>
+			<icurrent>0</icurrent>
+			<isolver>0</isolver>
+			<nodenumber note="ignored if valid initial state found">100</nodenumber>
+			<segmentlength>33</segmentlength>
+			<istructproperty>0</istructproperty>
+			<ihydroproperty>0</ihydroproperty>
+			<iseabedproperty>0</iseabedproperty>
+			<iconnection note="indexes of two end points">0 1</iconnection>
+			<saveflag>1</saveflag>
+		</cable>
+	</cables>
+	<structuralproperties number="1">
+		<structuralproperty id="0">
+			<diameter unit="m">0.0022</diameter>
+			<unitlengthmass unit="kg/m">0.0818</unitlengthmass>
+			<unitlengthweight unit="N/m">0.699</unitlengthweight>
+			<axialstiffness unit="N">1E+04</axialstiffness>
+			<bendingstiffness unit="N*m^2">0E0</bendingstiffness>
+			<torsionalstiffness unit="N*m^2">0</torsionalstiffness>
+			<dampingcoefficient unit="s/m">0</dampingcoefficient>
+		</structuralproperty>
+	</structuralproperties>
+	<hydroproperties number="1">
+		<hydroproperty id="0">
+			<addedmasscoefficient tangential="0" normal="3.8" binormal="3.8"/>
+			<dragcoefficient tangential="0.1592" normal="2.5" binormal="2.5"/>
+		</hydroproperty>
+	</hydroproperties>
+	<currents number="1">
+		<current id="0">
+			<polyorder note="used for polyfit the data">1</polyorder>
+			<profilefile>current0.dat</profilefile>
+		</current>
+	</currents>
+	<seabedproperties number="1">
+		<seabedproperty id="0">
+			<dampingcoefficient>0E0</dampingcoefficient>
+			<stiffnesscoefficient>3E5</stiffnesscoefficient>
+		</seabedproperty>
+	</seabedproperties>
+	<solvers number="1">
+		<solver id="0">
+			<iterationnumberlimit>400</iterationnumberlimit>
+			<convergencetolerance>1E-12</convergencetolerance>
+			<initialrelaxationfactor>1.0</initialrelaxationfactor>
+			<relaxationincreasefactor>1.02</relaxationincreasefactor>
+			<relaxationdecreasefactor>1.1</relaxationdecreasefactor>
+			<lambdainfinity note = "for generalized-alpha method">-0.5</lambdainfinity>
+		</solver>
+	</solvers>
+</case>

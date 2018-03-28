@@ -1,0 +1,4 @@
+// the configured options and settings for OpenMO
+#define OpenMOOR_API  @OpenMOOR_API@
+#define OpenMOOR_VERSION_MAJOR @OpenMOOR_VERSION_MAJOR@
+#define OpenMOOR_VERSION_MINOR @OpenMOOR_VERSION_MINOR@

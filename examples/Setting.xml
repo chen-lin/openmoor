@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<setting id="OpenMOORSetting" date="2018/02/23">
+	<simulationtype note="forcedmotion/shooting/relaxation">relaxation</simulationtype>
+    <mooringinputfile note="relative to current folder">OC3/CaseOC3.xml</mooringinputfile>    
+    <platformsaveflag note="if not a zero it is recoganized as true">1</platformsaveflag>
+    <forcedmotion note="forced motion at the platform reference point.">
+		<timehistory note="first line is the header">excite.dat</timehistory>
+    </forcedmotion>
+	<relaxation>
+        <platformvelocitytolerance>0.01</platformvelocitytolerance>
+        <cablevelocitytolerance>0.01</cablevelocitytolerance>
+        <stoptime>200</stoptime>
+        <timestep>0.02</timestep>
+        <platformmass note="rowwise 6x6 matrix for relaxation">8e6 0 0 0 0 0 0 8e6 0 0 0 0 0 0 8e6 0 0 0 0 0 0 4e9 0 0 0 0 0 0 4e9 0 0 0 0 0 0 2e8</platformmass>
+        <platformdamping note="rowwise 6x6 matrix for relaxation">1e5 0 0 0 0 0 0 1e5 0 0 0 0 0 0 2e5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1e7</platformdamping>
+        <platformhydrostaticstiffness note="rowwise 6x6 hydrostatic matrix">0 0 0 0 0 0 0 0 0 0 0 0 0 0 3e5 0 0 0 0 0 0 2e9 0 0 0 0 0 0 2e9 0 0 0 0 0 0 0</platformhydrostaticstiffness>
+        <platformotherload note="6x1 vector, e.g buoyancy">0 0 1.601672e6 0 0 0</platformotherload>
+    </relaxation>
+    <shooting>
+        <fairleadpositiontolerance xc="0.1" yc="0.1" zc="0.01"/>
+        <fairleadforcerelaxationfactor>0.1</fairleadforcerelaxationfactor>
+        <fairleadpositioniterationlimit>100</fairleadpositioniterationlimit>
+        <platformpositioniterationlimit>100</platformpositioniterationlimit>
+        <platformdisplacementtolerance note="averaged">1e-3</platformdisplacementtolerance>
+        <platformdisplacementrelaxationfactor>0.1</platformdisplacementrelaxationfactor>
+        <cableoutofplanestiffness note="approximation value">1000</cableoutofplanestiffness>
+        <platformhydrostaticstiffness note="rowwise 6x6 hydrostatic matrix">0 0 0 0 0 0 0 0 0 0 0 0 0 0 3e5 0 0 0 0 0 0 2e9 0 0 0 0 0 0 2e9 0 0 0 0 0 0 0</platformhydrostaticstiffness>
+        <platformotherload note="6x1 vector, e.g buoyancy">0 0 1.601672e6 0 0 0</platformotherload>
+    </shooting>
+</setting>

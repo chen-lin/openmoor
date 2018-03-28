@@ -1,0 +1,17 @@
+/*!
+\mainpage OpenMOOR is an open source C++ simulation program for mooring systems
+
+\section intro Overview
+The nonlinear statics and dynamics  mooring cables are solved using a finite difference method. The statics and dynamics of a mooring system consisting of multiple cables are solved in coupled manner and parallel computation is implemented to improve the simulation efficiency.
+ 
+\section author Authors
+Lin Chen, Ph.D., Trinity College Dublin, Dublin 2, Ireland <br>
+Biswajit Basu, Ph.D., Trinity College Dublin, Dublin 2, Ireland
+
+\section use How to use
+Compiled executables are included in the source code package which can be directly used. Example input files are also provided, based on which you can generate the input files for your own problems and then run the analysis. Dynamic linking libraries are also provided for using OpenMOOR in Matlab environment.
+
+\section compile How to compile
+A CMakeList.txt file is provided for compiling the source code on MacOS and Windows platform. It has been tested on a MacOS 10.12 and a 64-bit windows 
+system. See OpenMOOR v1.0.1 User Guide for details.
+*/

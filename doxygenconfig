@@ -1,0 +1,7 @@
+PROJECT_NAME     = OpenMOOR
+INPUT            = doxygen/mainpage.dox src/cable.cc src/cable.h src/catenary.cc src/catenary.h src/meshoptimizer.cc src/meshoptimizer.h src/input.cc src/input.h src/main.cc src/mooring.h src/node.cc src/node.h src/numeric.h src/moorapi.cc src/moorapi.h src/platform.cc src/platform.h src/reader.cc src/reader.h src/setting.cc src/setting.h src/simulation.cc src/simulation.h src/solver.cc src/solver.h src/utility.cc src/utility.h src/writer.cc src/writer.h src/moorerror.h src/moorerror.cc
+WARNINGS         = YES
+FILE_PATTERNS   += doxygen/*.dox
+CITE_BIB_FILES   = doxygen/refs.bib
+OUTPUT_DIRECTORY = doxygen/
+GENERATE_HTML = YES
