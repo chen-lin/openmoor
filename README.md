@@ -7,10 +7,10 @@ OpenMOOR is an open source cross-platform simulation program for numerical simul
 The scaled cable model described in this [paper](http://www.mdpi.com/2077-1312/4/1/5) is simulated. The unstretched length of the cable is 33 m. The computed upper end tensions agree well with the experimental data provided by the paper for these two cases.
 
 - Case 1: forced upper end circular motion with radius 0.2 m and period 3.5 s
-![case1](https://github.com/chen-lin/OpenMOOR/blob/master/example/validation/Case3-5.gif?raw=true)
+![case1](https://github.com/chen-lin/OpenMOOR/blob/master/examples/validation/Case3-5.gif?raw=true)
 
 - Case 2: forced upper end circular motion with radius 0.2 m and period 1.25 s
-![case2](https://github.com/chen-lin/OpenMOOR/blob/master/example/validation/Case1-25.gif?raw=true)
+![case2](https://github.com/chen-lin/OpenMOOR/blob/master/examples/validation/Case1-25.gif?raw=true)
 
 ### Coupled with FOWT
 
