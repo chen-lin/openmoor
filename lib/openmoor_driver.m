@@ -34,9 +34,9 @@ calllib('libMoorApi','get_cable_fairlead_force', 2);
 %% Time stepping.
 tic
 for j = 2:n_time
+    % Cable state is saved every 0.1 s.
     calllib('libMoorApi','update', mooring_load_ptr, displacement(j,:)', ...
         velocity(j,:)', time(j), time_step(j-1), 0.1); 
-    % Cable state is saved every 1 s. 
     mooring_load(j,:) = mooring_load_ptr.value;
     display(time(j));
     display(mooring_load(j,:))
