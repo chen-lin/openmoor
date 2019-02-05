@@ -1,6 +1,6 @@
-## Welcome to OpenMOOR
+## Welcome to openmoor
 
-OpenMOOR is an open source cross-platform simulation program for numerical simulation of statics and dynamics of mooring systems of offshore floating wind turbines and wave energy devices. 
+Openmoor is an open source cross-platform simulation program for numerical simulation of statics and dynamics of mooring systems of offshore floating wind turbines and wave energy devices. 
 
 ## Demonstration
 ### Validation
@@ -15,7 +15,7 @@ The scaled cable model described in this [paper](http://www.mdpi.com/2077-1312/4
 ### Coupled with FOWT
 
 ## How to use
-OpenMOOR can be used as a standalone program or more frequently as dynamic linking library for coupled analysis. 
+Openmoor can be used as a standalone program or more frequently as dynamic linking library for coupled analysis. 
 - MacOS
 - Windows
 
