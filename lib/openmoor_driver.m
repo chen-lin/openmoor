@@ -18,7 +18,7 @@ for j=1:n_time
         velocity(j, direction_id)= -amplitude*sin(2.0*pi*freq*time(j));
     end
     if j >= 2
-        displacement(j, direction_id) = displacement(j-1, direction_id) + ...
+        displacement(j, direction_id) = displacement(j-1, direction_id)+...
             (time(j)-time(j-1))*velocity(j, direction_id);
     end
 end
@@ -31,6 +31,7 @@ loadlibrary('libMoorApi','moorapi.h');
 input_file = 'CaseOC3.xml';
 calllib('libMoorApi','initialize',input_file)
 calllib('libMoorApi','get_cable_fairlead_force', 2); 
+
 %% Time stepping.
 tic
 for j = 2:n_time

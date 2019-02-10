@@ -61,7 +61,7 @@ double DECLDIR get_cable_nodal_force(const int i_cable, const int i_node);
 // in the range, a NAN will be returned.
 double DECLDIR get_reference_point_displacement(const int i_component);
 
-// Get flaoter reference point velocity component and if the index is not in
+// Get floater reference point velocity component and if the index is not in
 // the range, a NAN will be returned.
 double DECLDIR get_reference_point_velocity(const int i_component);
 
