@@ -52,6 +52,8 @@ Please cite [1,2] if you use openmoor in your own work. Other works relevant to 
 
 [5] __Chen, L.__ & Basu, B. (2018). [Fatigue load estimation of a spar-type floating offshore wind turbine considering wave-current interactions](https://doi.org/10.1016/j.ijfatigue.2018.06.002). _International Journal of Fatigue, 116_, 421-428.
 
+### License
+Openmoor is licensed under the Apache License 2.0.
 
 ### Authors
 - Dr. [Lin Chen](http://chen-lin.github.io)
