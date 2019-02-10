@@ -25,7 +25,7 @@ The scaled cable model described in this [paper](http://www.mdpi.com/2077-1312/4
 
 Animations of the cable motions in these two cases are shown below.
 
-![](https://github.com/chen-lin/OpenMOOR/blob/master/examples/validation/Case3-5.gif?raw=true)|![](https://github.com/chen-lin/OpenMOOR/blob/master/examples/validation/Case1-25.gif?raw=true)
+![](https://github.com/chen-lin/OpenMOOR/blob/master/examples/validation/Case3-5.gif?raw=true) | ![](https://github.com/chen-lin/OpenMOOR/blob/master/examples/validation/Case1-25.gif?raw=true)
 Case 1 | Case 2
 
 ### Dependencies
