@@ -23,10 +23,10 @@ The scaled cable model described in this [paper](http://www.mdpi.com/2077-1312/4
 - Case 1: forced upper end circular motion with radius 0.2 m and period 3.5 s
 - Case 2: forced upper end circular motion with radius 0.2 m and period 1.25 s
 
-Animations of the cable motions in these two cases (case 1: left; case2: right) are shown below.
+Animations of the cable motions in these two cases are shown below.
 
-:---|:---
-![case1](https://github.com/chen-lin/OpenMOOR/blob/master/examples/validation/Case3-5.gif?raw=true)|![case2](https://github.com/chen-lin/OpenMOOR/blob/master/examples/validation/Case1-25.gif?raw=true)
+![](https://github.com/chen-lin/OpenMOOR/blob/master/examples/validation/Case3-5.gif?raw=true)|![](https://github.com/chen-lin/OpenMOOR/blob/master/examples/validation/Case1-25.gif?raw=true)
+Case 1 | Case 2
 
 ### Dependencies
 The following open source libraries or third party functions are used by openmoor:
