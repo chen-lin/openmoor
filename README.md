@@ -27,8 +27,7 @@ Animations of the cable motions in these two cases are shown below.
 
 ![](https://github.com/chen-lin/OpenMOOR/blob/master/examples/validation/Case3-5.gif?raw=true) | ![](https://github.com/chen-lin/OpenMOOR/blob/master/examples/validation/Case1-25.gif?raw=true)
 :---:|:---:
-Case 1 | Case 2
-<img width=300/>|<img width=300/>
+Case 1<img width=300/> | Case 2<img width=300/>
 
 ### Dependencies
 The following open source libraries or third party functions are used by openmoor:
