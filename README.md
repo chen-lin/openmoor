@@ -1,18 +1,18 @@
 Openmoor is an open source cross-platform simulation program for numerical simulation of statics and dynamics of mooring systems of offshore floating wind turbines and wave energy devices. In particular, it can consider the current of arbitrary profile.
 
 ### How to use
-Openmoor has been compiled as dynamic linking libraries for use in Matlab  environment. Check them in the _lib_ folder:
+Openmoor has been compiled as dynamic linking libraries (DLL) for use in Matlab  environment. Check them in the _lib_ folder:
 
 ```
 .
 +-- lab
-|   +-- MoorApiwin32.dll
-|   +-- MoorApiwin64.dll
-|   +-- libMoorApi.dylib
-|   +-- moorapi.h
-|   +-- CaseOC3.xml
-|   +-- current.dat
-|   +-- openmoor_driver.m
+|   +-- MoorApiwin32.dll (DLL for win32 system, tested on windows 7)
+|   +-- MoorApiwin64.dll (DLL for win64 system, tested on windows 7)
+|   +-- libMoorApi.dylib (DLL for MacOS system, tested on Sierra)
+|   +-- moorapi.h (Head file)
+|   +-- CaseOC3.xml (Input file describing mooring system)
+|   +-- current.dat (Input file describing current profile)
+|   +-- openmoor_driver.m (Example Matlab code using openmoor DLL)
 ```
 Set _lab_ as your work folder and then run openmoor_driver.m. For details on using openmoor and compiling openmoor on your own computer, please check the tutorial in pdf format in the _manual_ folder. 
 
@@ -26,7 +26,9 @@ The scaled cable model described in this [paper](http://www.mdpi.com/2077-1312/4
 Animations of the cable motions in these two cases are shown below.
 
 ![](https://github.com/chen-lin/OpenMOOR/blob/master/examples/validation/Case3-5.gif?raw=true) | ![](https://github.com/chen-lin/OpenMOOR/blob/master/examples/validation/Case1-25.gif?raw=true)
+:---:|:---:
 Case 1 | Case 2
+<img width=300/>|<img width=300/>
 
 ### Dependencies
 The following open source libraries or third party functions are used by openmoor:
