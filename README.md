@@ -23,7 +23,7 @@ The scaled cable model described in this [paper](http://www.mdpi.com/2077-1312/4
 - Case 1: forced upper end circular motion with radius 0.2 m and period 3.5 s
 - Case 2: forced upper end circular motion with radius 0.2 m and period 1.25 s
 
-Animations of the cable motions in these two cases are shown below.
+Check reference [2] for the comparison of simulated responses and experimentally measured responses at the cable top end. The animations of the simulated cable motions in these two cases are shown below.
 
 ![](https://github.com/chen-lin/OpenMOOR/blob/master/examples/validation/Case3-5.gif?raw=true) | ![](https://github.com/chen-lin/OpenMOOR/blob/master/examples/validation/Case1-25.gif?raw=true)
 :---:|:---:
