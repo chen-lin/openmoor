@@ -35,6 +35,7 @@ The following open source libraries or third party functions are used by openmoo
 - [rapidxml](http://rapidxml.sourceforge.net) for handling input file
 - [boost/odeint](http://headmyshoulder.github.io/odeint-v2/) for integration
 - polyfit.cc
+
 Check them and corresponding license in the _include_folder.
 
 ### Citation
